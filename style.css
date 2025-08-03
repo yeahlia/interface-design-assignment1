@@ -1,0 +1,70 @@
+/* base styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffb3c1;
+  color: #222;
+  padding: 3%;
+
+  font-family: "Libertinus Serif", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* main header */
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 3%;
+
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  color: #590d22;
+}
+
+/* container for boxes */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 3%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* boxes */
+.info {
+  flex: 1 1 calc(50% - 2%);
+  min-width: 300px;
+  background-color: #fff0f3;
+  border-radius: 8px;
+  padding: 3%;
+  margin-bottom: 3%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+}
+
+/* section headers */
+.info h2 {
+  text-align: center;
+  font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.6rem;
+
+  margin-bottom: 1rem;
+  color: #590d22;
+}
+
+/* paragraph */
+.info p {
+  font-size: 1rem;
+  line-height: 1.7;
+}
